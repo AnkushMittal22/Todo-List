@@ -1,0 +1,52 @@
+.Input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .Input label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .Input input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 15rem;
+    max-width: 100%;
+  }
+  
+  .button_add {
+    position: relative;
+    left: 100px;
+    padding: 15px;
+border-radius: 12px;
+top: -10px;
+     
+  }
+
+  .button_add:hover{
+background-color: green;
+color: white;
+  }
+
+.button_cancel{
+  position: relative;
+  left: 100px;
+  padding: 15px;
+border-radius: 12px;
+top: -10px;
+margin: 5px;
+}
+
+.button_cancel:hover{
+  background-color: red;
+  color: white;
+    }
+
+ 

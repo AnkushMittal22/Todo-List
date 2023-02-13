@@ -1,0 +1,13 @@
+.ShowItem{
+    background-color: rgb(77, 98, 147);
+    width: 50rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+p{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}

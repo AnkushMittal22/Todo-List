@@ -1,0 +1,39 @@
+.ShowList{
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+}
+
+.ShowList_control{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+   
+}
+
+.ShowList_title{
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    /* position: relative; */
+    /* left: 30%; */
+}
+
+.ShowList_amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+.border{
+    border: 5px solid yellow;
+}
+
+.delete{
+    border-radius: 50%;
+    margin: 10px;
+     
+}
